@@ -4,5 +4,5 @@
 
 <default remote="origin" revision="master"/>
 <project name="VoTT_NTUT_WIN10" path="VoTT_NTUT\WIN10\" />
-<project name="CVTRK_WIN10 path="CVTRK\WIN10\" />
+<project name="CVTRK_WIN10" path="CVTRK\WIN10\" />
 </manifest>
