@@ -3,6 +3,6 @@
 <remote fetch="https://github.com/masteree108/" name="origin"/>
 
 <default remote="origin" revision="master"/>
-<project name="VoTT_NTUT_WIN10" path="D:\school\paper\VoTT_NTUT_WIN10/" />
-<project name="CVTRK_WIN10 path="D:\school\paper\CVTRK_WIN10/" />
+<project name="VoTT_NTUT_WIN10" path="VoTT_NTUT\WIN10\" />
+<project name="CVTRK_WIN10 path="CVTRK\WIN10\" />
 </manifest>
