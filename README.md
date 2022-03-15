@@ -1,8 +1,13 @@
+---
+title: 'For VoTT_NTUT_WIN10_repo ReadMe'
+disqus: hackmd
+---
+[TOC]
 # NTUT VoTT
 ##  Project description and links
 
 ###  [VoTT_NTUT_WIN10](https://github.com/masteree108/VoTT_NTUT_WIN10)
-This Source Code is based on developing new features on Microsoft/VoTT version 2.2.0
+This Source Code is based on developing new features on Microsoft/VoTT version 2.2.0.
 
 
 ###  [CVTRK_WIN10](https://github.com/masteree108/CVTRK_WIN10)
@@ -13,10 +18,10 @@ The new version exe of VoTT executable file integrated by NTUT
 
 ##  Main Features
 NTUT_VoTT tool is a modified version of Microsoft VoTT (based on Version: V2.2.0) open-source labeling software. It has the following new features:
-(1). Automatic tracking after labeling, to reduce the tedious work of re-labeling each frame
-(2). Multi-core tracking
-(3). Automatically correct the size of the bounding box
-(4). Track FPS for different scenarios
+####  Automatic tracking after labeling, to reduce the tedious work of re-labeling each frame
+#### Multi-core tracking
+#### Automatically correct the size of the bounding box
+#### Track FPS for different scenarios
 
 ##  Basic operation
 VoTT allows user to fine tune the bounding boxes using the arrow keys in a few different ways. While a region is selected:
@@ -46,30 +51,34 @@ Click the gear icon in the lower left corner and enter the security token above.
 ##  Create a new project
 
 ###  New project
-Go back to the home page and press New Project to create a project
+Go back to the home page and press New Project to create a project.
 ![](https://i.imgur.com/awsb5BL.png)
 
 ###  Project Setting
 
 #### Project Name
-You can create an arbitrary project name. For convenience, you can make the project name the same as the video name
+You can create an arbitrary project name. For convenience, you can make the project name the same as the video name.
 
 #### Security Token
 You need to select the NTUTDrone_Token you just set.
 
 #### Video Fame Extraction Rate 
-The user can set the Fame Extraction Rate for a movie. The higher the Fame Extraction Rate (ex.30 FPS)is, the larger the data set will be, but the more time it will take, and the lower the Fame Extraction Rate (ex.6 FPS) is, the smaller the data set will be, but the less time it will take.
+The user can set the Fame Extraction Rate for a video. The higher the Fame Extraction Rate (ex.30 FPS)is, the larger the data set will be, but the more time it will take, and the lower the Fame Extraction Rate (ex.6 FPS) is, the smaller the data set will be, but the less time it will take.
 ![](https://i.imgur.com/gJ6vWLE.png)
 
 #### Source Connection
-The user can choose the path from which to enter the video to track, as shown in the following image using Local file System(C:\Drone_Source)
+The user can choose the path from which to enter the video to track, as shown in the following image using Local file System(C:\Drone_Source).
+
 **If you want to share VoTT project with other user, please set the same path**
+
 ![](https://i.imgur.com/23wViLg.png)
 ![](https://i.imgur.com/fl5znJz.png)
 
 #### Target Connection
-The user can choose the VoTT export path,as shown in the following image using Local file System(C:\Drone_Target\Drone_036)
-**If you want to share VoTT project with other user, please set the same path**
+The user can choose the VoTT export path,as shown in the following image using Local file System(C:\Drone_Target\Drone_036).
+
+**If you want to share VoTT project with other user, please set the same path.**
+
 ![](https://i.imgur.com/AR9xnrj.png)
 ![](https://i.imgur.com/C7VzdnN.png)
 
@@ -83,7 +92,7 @@ User can set the time they want to track.For example,if project setting set vide
 ![](https://i.imgur.com/UoIWGHT.png)
 
 #### FPS
-User uses different frames for tracking depending on the scene. For example,you can track a still life at 5fps,and you can track a character at org_fps.
+User uses different frames for tracking depending on the scene. For example,you can track a still life at 5fps,and you can track a character at Org_FPS.
 ![](https://i.imgur.com/1Xpcrxe.png)
 
 #### Bbox_calibration
