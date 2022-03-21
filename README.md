@@ -37,17 +37,6 @@ D or ArrowRight - Next Frame
 Q - Previous Tagged Frame
 E - Next Tagged Frame
 ```
-
-##  Set up the VoTT environment 
-To make the project available to everyone , Security Token uses a common key to add tracking function.
-```gherkin=
-    Name : NTUTDrone Token
-    Key : qITjd1Rj6hFqC7uB0OGxPKYVxIFSdcMrprQAMS5rEhc=
-```
-Click the gear icon in the lower left corner and enter the security token above.
-
-![](https://i.imgur.com/XNGfNZi.png)
-
 ##  Create a new project
 
 ###  New project
