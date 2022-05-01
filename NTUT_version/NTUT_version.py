@@ -1,3 +1,3 @@
-release_version = "version: NTUT_VoTT_2021_09_21_v0.0.5"
+release_version = "version: NTUT_VoTT_2021_11_21_v0.0.6"
 print(release_version)
 
