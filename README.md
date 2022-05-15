@@ -6,24 +6,25 @@ disqus: hackmd
 # NTUT VoTT
 
 ##  Main Features of NTUT VoTT
+[It is recommended to watch the README here](https://hackmd.io/@NTUTVOTT/HJycTp3-9)
 
 NTUT_VoTT tool is a modified version of Microsoft VoTT (based on Version: V2.2.0) open-source labeling software. It has the following new features:
 ####  Automatic tracking after labeling, to reduce the tedious work of re-labeling each frame
 #### Multi-core tracking
 #### Track FPS for different scenarios
 
-:::info 
-The below video shows NTUT VoTT how to save your time for labeling objects, you don't need to label those objects each frame, and this tool supports multi-core tracking which can speed up while you tracking more objects. 
-:::
-{%youtube 6SzaEnZP5to%}
+
+### The below video shows NTUT VoTT how to save your time for labeling objects, you don't need to label those objects each frame, and this tool supports multi-core tracking which can speed up while you tracking more objects. 
+
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/6SzaEnZP5to/0.jpg)](https://www.youtube.com/watch?v=6SzaEnZP5to "DEMO")
 
 #### Automatically correct the size of the bounding box
-::: info
-Still do not know how the bounding box size is most fit? try this functionality like the below video.
-:::
-{%youtube SCz4ZMXDMGo%}
+
+### Still do not know how the bounding box size is most fit? try this functionality like the below video.
 
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/SCz4ZMXDMGo/0.jpg)](https://www.youtube.com/watch?v=SCz4ZMXDMGo "DEMO")
 
 ##  Project description and links
 
@@ -37,9 +38,9 @@ Additional new automatic tracking of objects
 ###  [NTUT_VoTT](https://drive.google.com/file/d/1DsavbWK5Ly8vZCAcbyCEPsk3zpRld34C/view?usp=sharing)
 The new version exe of VoTT executable file integrated by NTUT
 
-::: success
-It doesn't need to setup any development environment, this tool can execute it directly.
-:::
+
+### It doesn't need to setup any development environment, this tool can execute it directly.
+
 
 ##  VoTT Basic operation
 VoTT allows user to fine tune the bounding boxes using the arrow keys in a few different ways. While a region is selected:
@@ -67,13 +68,15 @@ Click the gear icon in the lower left corner and enter the security token above.
 ![](https://i.imgur.com/XNGfNZi.png)
 
 ##  NTUT VoTT video soure and target file path
-:::warning
-Please note if you need to run function of NTUT VoTT, it needs to put below tool and project folder on the right path.
+
+### Please note if you need to run function of NTUT VoTT, it needs to put below tool and project folder on the right path.
+```
 (1) NTUT_VoTT_v0.0.7_stable.zip
 (2) video source folder
 (3) traget folder
+```
 Please as follows
-:::
+
 
 ### (1) NTUT_VoTT.exe path
 please extract NTUT_VoTT_v0.0.7_stable.zip(extract here) on the 
@@ -204,9 +207,9 @@ User can add actions, Id,and features (ex. ID_xxx,walk,stand) to Tags.You can th
 As shown in the figure below, character have been labeled and assigned id_001, the tracking time is set to 3 seconds, FPS=org_fps,and Bbox_calibration strength is weak,
 ![](https://i.imgur.com/SoaRHYr.jpg)
 
-:::warning
-Please note using the function of NTUT_VoTT it must label id_00x tag on the object,  otherwise it can't work , like the below figure.
-:::
+
+### Please note using the function of NTUT_VoTT it must label id_00x tag on the object,  otherwise it can't work , like the below figure.
+
 
 ![](https://i.imgur.com/ywaEWpj.png)
 
